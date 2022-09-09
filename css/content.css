@@ -1,0 +1,57 @@
+.sec {
+    position: relative;
+    padding: 100px;
+    width: 100%;
+    background: #1c0522;
+}
+
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.content-sec {
+    width: 90%;
+    padding: 1em 0.5em;
+    margin: 1em 0;
+    background: white;
+    border-radius: 2em;
+}
+
+.content-sec p {
+    padding-left: 2em;
+    font-size: 2em;
+}
+
+.icon-con {
+    background: #dce0f9;
+}
+
+#link-con {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+#link-con a {
+    text-decoration: none;
+    color: black;
+    flex: 1 1 0;
+}
+
+.links-item {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background: #dce0f9;
+    border-radius: 1em;
+    height: 6em;
+    margin: 0 0.5em;
+    text-align: center;
+}
+
+#about a {
+    text-decoration: none;
+    color: #f44f08;
+}

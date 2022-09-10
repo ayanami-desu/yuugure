@@ -15,10 +15,11 @@
   <header>
     <a href="#" class="logo">夕暮れ</a>
     <ul>
-      <li><a class="active" href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Work</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a class="active" href="#">Start</a></li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#anime">Anime</a></li>
+      <li><a href="#thanks">Thanks</a></li>
     </ul>
   </header>
   <section>
@@ -28,36 +29,34 @@
     <img src="./img/left_tree.png" alt="left_tree" id="left-tree" class="tree" />
     <img src="./img/right_tree.png" alt="right_tree" id="right-tree" class="tree" />
     <h2 id="text">YuuGuRe</h2>
-    <a href="#content" id="btn">Explore</a>
+    <a href="#links" id="btn">Explore</a>
   </section>
-  <div class="sec" id="content">
+  <div id="links" class="sec" id="content">
     <h2>A College student studying in CS</h2>
     <div class="content-sec">
       <p>Links:</p>
       <div id="link-con">
         <a href="https://github.com/ayanami-desu/" target="_blank">
           <div class="links-item">
-            <div class="icon-con"><img src="./assets/icons8-github-64.png" width="32px" /></div>
+            <div class="icon-con"><img src="./icons/icons8-github-64.png" width="32px" /></div>
             <div><span>My Github</span><br /><span>@ayanami-desu</span></div>
           </div>
         </a>
         <a href="https://katoumegumi.ltd/" target="_blank">
           <div class="links-item">
-            <div class="icon-con"><img src="./assets/icons8-wordpress-64.png" width="32px" /></div>
+            <div class="icon-con"><img src="./icons/icons8-wordpress-64.png" width="32px" /></div>
             <div><span>My Blog</span><br /><span>katoumegumi.ltd</span></div>
           </div>
         </a>
         <a href="https://iropic.top/" target="_blank">
-
           <div class="links-item">
-            <div class="icon-con"><img src="./assets/icons8-图片-64.png" width="32px" /></div>
+            <div class="icon-con"><img src="./icons/icons8-图片-64.png" width="32px" /></div>
             <div><span>涩图管理系统（开发中）</span><br /><span>iropic.top</span></div>
           </div>
         </a>
         <a href="https://556123.xyz/" target="_blank">
-
           <div class="links-item">
-            <div class="icon-con"><img src="./assets/icons8-口红-64.png" width="32px" /></div>
+            <div class="icon-con"><img src="./icons/icons8-口红-64.png" width="32px" /></div>
             <div><span>写真套图站</span><br /><span>556123.xyz</span></div>
           </div>
         </a>
@@ -66,10 +65,85 @@
     <div id="about" class="content-sec">
       <p>About:</p>
       <div>
+        <div id="babel-con">
+          Babel:
+          <div style="background:#6ef7a7" class="babel-item">
+            <div class="lang-name">zh-N</div>
+            <div style="background:#c5fcdc" class="lang-desc">此人的<b>母语</b>是<b>汉语</b>。</div>
+          </div>
+          <div class="babel-item">
+            <div class="lang-name">en-1</div>
+            <div class="lang-desc">This people is able to contribute with a <b>basic level</b> of <b>English</b>.</div>
+          </div>
+          <div class="babel-item">
+            <div class="lang-name">ja-1</div>
+            <div class="lang-desc">この人は<b>簡単</b>な<b>日本語</b>が話せます。</div>
+          </div>
+        </div>
+        <div id="cslang-con">
+          Programing:
+          <div class="cslang-item">
+            <div class="cslang-icon">
+              <img src="./icons/icons8-python-50.png" />
+              <span>Python</span>
+            </div>
+            <div class="cslang-desc">只会拿py爬涩图</div>
+          </div>
+          <div class="cslang-item">
+            <div class="cslang-icon">
+              <img src="./icons/icons8-html-5-50.png" />
+              <span>HTML&CSS</span>
+            </div>
+            <div class="cslang-desc">HTML和CSS为什么不是编程语言</div>
+          </div>
+          <div class="cslang-item">
+            <div class="cslang-icon">
+              <img src="./icons/icons8-js-50.png" />
+              <span>JavaScript</span>
+            </div>
+            <div class="cslang-desc">只会写vue也算会Js</div>
+          </div>
+          <div class="cslang-item">
+            <div class="cslang-icon">
+              <img src="./icons/icons8-golang-50.png" />
+              <span>Golang</span>
+            </div>
+            <div class="cslang-desc">编译好快，其他的不知道</div>
+          </div>
+          <div class="cslang-item">
+            <div class="cslang-icon">
+              <img src="./icons/icons8-手语c.-50.png" />
+              <span>C / C++</span>
+            </div>
+            <div class="cslang-desc">j++;++j让我很舒适</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="anime" class="content-sec">
+      <p>Anime:</p>
+      <div id="anime-con">
+        <div class="anime-item"><img src="./assets/Tsuki_ga_Kirei_Teaser.jpg" class="anime-cover" /><span>月色真美</span>
+        </div>
+        <div class="anime-item"><img src="./assets/846px-Toaru_Kagaku_no_Railgun_Anime_Teaser.jpg"
+            class="anime-cover" /><span>某科学的超电磁炮</span></div>
+        <div class="anime-item"><img src="./assets/Saenai_2nd_KV2.jpg" class="anime-cover" /><span></span>路人女主的养成方法
+        </div>
+        <div class="anime-item"><img src="./assets/834px-Sukasuka_Anime_KV.jpg"
+            class="anime-cover" /><span>末日时在做什么？有没有空？可以来拯救吗？</span></div>
+        <div class="anime-item"><img src="./assets/972px-Suzumiya_Haruhi_BD_Complete_BOX.jpg"
+            class="anime-cover" /><span>凉宫春日的忧郁</span></div>
+      </div>
+    </div>
+    <div id="thanks" class="content-sec">
+      <p>Thanks:</p>
+      <div>
         <span>Backgroud image is from <a href="https://pixabay.com/" target="_blank">Pixabay</a> user Daniel
           Roberts</span>
         <br />
-        <span>icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+        <span>Icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+        <br />
+        <span>Anime pictures are downloaded from <a href="https://zh.moegirl.org.cn/" target="_blank">萌娘百科</a></span>
       </div>
     </div>
   </div>

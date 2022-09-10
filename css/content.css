@@ -51,7 +51,72 @@
     text-align: center;
 }
 
-#about a {
+#about {
+    
+}
+
+#babel-con {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.babel-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1px 0;
+    margin: 2px;
+    background: #e0c0e0;
+
+}
+
+.lang-name {
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.lang-desc {
+    width: 75%;
+    background: #f3e0f3;
+}
+#cslang-con{
+    width: 60%;
+}
+.cslang-item{
+    margin: 0.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cslang-icon{
+    display: flex;
+    align-items: center;
+}
+.cslang-icon img{
+    width: 32px;
+}
+#anime-con {
+    display: flex;
+    width: 100%;
+
+}
+
+.anime-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.anime-cover {
+    height: 150px;
+    object-fit: cover;
+}
+
+#thanks a {
     text-decoration: none;
     color: #f44f08;
 }
